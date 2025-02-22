@@ -16,20 +16,28 @@
 
             <button class="navbar-toggler" type="button"
             data-bs-toggle="offcanvas"
-            data-bs-target="#Menu Lateral"
+            data-bs-target="#MenuLateral"
             >
              <span class="navbar-toggler-icon"></span>
 
             </button>
             <section 
-              class="offcanvas offcanvas-start bg dark"id="Menu Lateral" tabindex="-1">
+              class="offcanvas offcanvas-start bg-dark"id="MenuLateral" tabindex="-1">
                 <div class="offcanvas-header" data-bs-theme="dark">
-                    <h5>EMPRINNOS</h5>
-                    <button class="bt-close" type="button"
+                    <h5 class="offcanvas-title text-info">EMPRINNOS</h5>
+                    <button class="btn-close" type="button"
                     area-label="Close" data-bs dismiss="offcanvas"
                     ></button>
                 </div>
-                <div></div>
+                <div class="offcanvas-body d-flex flex-column
+                justify-content-between px-0">
+                    <ul class="navbar-nav fs-5 justify-content-evenly">
+                        <li class="nav-item p-3 py-md-1"><a href=""class="nav-link">HOME</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href=""class="nav-link">PROJECTS</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href=""class="nav-link">ABOUT</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href=""class="nav-link">CONTACT</a></li>
+                    </ul>
+                </div>
             </section>
 
 
